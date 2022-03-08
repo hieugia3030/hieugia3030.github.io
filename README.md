@@ -3,7 +3,7 @@
 Link vào trang của từng bạn: hieugia3030.github.io/ho-va-ten.(không dấu, không viết hoa, không dấu cách) 
 
 ## Link của từng bạn ây, nếu các bạn lười :))) : 
-- Cô giáo chủ nhiệm Trần Thu Hương: [hieugia3030.github.io/tran-thu-huong](/tran-thu-huong)
+- Cô giáo chủ nhiệm Trần Thu Hương: [/tran-thu-huong](hieugia3030.github.io/tran-thu-huong)
 - Nguyễn Tú Anh: [hieugia3030.github.io/nguyen-tu-anh](hieugia3030.github.io/nguyen-tu-anh)
 - Nguyễn Ngọc Bích: [hieugia3030.github.io/nguyen-ngoc-bich](hieugia3030.github.io/nguyen-ngoc-bich)
 - Hà Minh Châu: [hieugia3030.github.io/ha-minh-chau](hieugia3030.github.io/ha-minh-chau)
