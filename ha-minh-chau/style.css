@@ -261,16 +261,22 @@ a:focus {
 	font-weight: 400;
 	font-size: 10vw;
 	margin: 10px 0;
-	line-height: 1;
 	position: relative;
 }
 
 .content__title-sub {
 	color: var(--color-content-title-sub);
-	font-size: 4vw;
+	font-size: 3vw;
 	display: block;
 	margin-left: 3vw;
-	line-height: 0.5;
+}
+
+.content__title-credit {
+	color: #808080;
+	font-size: 1vw;
+	display: block;
+	position:relative;
+	text-align: end;
 }
 
 .cursor {
