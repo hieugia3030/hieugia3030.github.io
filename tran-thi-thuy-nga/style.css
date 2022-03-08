@@ -267,18 +267,17 @@ a:focus {
 
 .content__title-sub {
 	color: var(--color-content-title-sub);
-	font-size: 4vw;
+	font-size: 3vw;
 	display: block;
 	margin-left: 3vw;
-	line-height: 0.5;
+	line-height: 0.7;
 }
 
 .content__title-credit {
-	color: var(#808080);
-	font-size: 2vw;
+	color: #808080;
+	font-size: 1vw;
 	display: block;
-	margin-left: 3vw;
-	line-height: 0.5;
+	line-height: 0.7;
 	position:relative;
 	text-align: end;
 }
