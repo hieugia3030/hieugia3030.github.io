@@ -273,6 +273,16 @@ a:focus {
 	line-height: 0.5;
 }
 
+.content__title-credit {
+	color: var(#808080);
+	font-size: 2vw;
+	display: block;
+	margin-left: 3vw;
+	line-height: 0.5;
+	position:relative;
+	text-align: end;
+}
+
 .cursor {
 	display: none;
 }
