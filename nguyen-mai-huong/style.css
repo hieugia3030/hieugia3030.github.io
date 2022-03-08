@@ -261,7 +261,6 @@ a:focus {
 	font-weight: 400;
 	font-size: 10vw;
 	margin: 10px 0;
-	line-height: 1;
 	position: relative;
 }
 
@@ -270,14 +269,12 @@ a:focus {
 	font-size: 3vw;
 	display: block;
 	margin-left: 3vw;
-	line-height: 0.7;
 }
 
 .content__title-credit {
 	color: #808080;
 	font-size: 1vw;
 	display: block;
-	line-height: 0.7;
 	position:relative;
 	text-align: end;
 }
