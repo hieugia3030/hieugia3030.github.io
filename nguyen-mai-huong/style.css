@@ -269,6 +269,7 @@ a:focus {
 	font-size: 3vw;
 	display: block;
 	margin-left: 3vw;
+	line-height: 1.25;
 }
 
 .content__title-credit {
