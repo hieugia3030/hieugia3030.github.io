@@ -1299,34 +1299,6 @@ audio {
         color: #fff;
         background-color: #466baf;
     }
-
-	.box-left-mini{
-		float:left;
-		background-image:url(my1.jpeg);
-		width:292px;
-		height:141px;
-	}
-	
-	.box-left-mini .front {
-		display: block;
-		z-index: 5;
-		position: relative;
-	}
-	.box-left-mini .front span {
-		background: #fff
-	}
-	
-	.box-left-mini .behind_container {
-		background-color: #ff0;
-		position: relative;
-		top: -18px;
-	}
-	.box-left-mini .behind {
-		display: block;
-		z-index: 3;
-	}
-
-
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
     	.container {
