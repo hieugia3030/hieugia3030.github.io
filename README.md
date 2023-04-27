@@ -13,7 +13,6 @@ Link vào trang của từng bạn: hieugia3030.github.io/ho-va-ten.(không dấ
 - Nguyễn Thu Hương: [https://hieugia3030.github.io/nguyen-thu-huong](https://hieugia3030.github.io/nguyen-thu-huong)
 - Nguyễn Mai Hương: [https://hieugia3030.github.io/nguyen-mai-huong](https://hieugia3030.github.io/nguyen-mai-huong)
 - Trần Thị Thuý Nga: [https://hieugia3030.github.io/tran-thi-thuy-nga](https://hieugia3030.github.io/tran-thi-thuy-nga)
-- Trần Mỹ Na: [https://hieugia3030.github.io/tran-my-na](https://hieugia3030.github.io/tran-my-na)
 - Hà Gia Thương: [https://hieugia3030.github.io/ha-gia-thuong](https://hieugia3030.github.io/ha-gia-thuong)
 
 
