@@ -1,0 +1,60 @@
+body {
+    background-color: #dedede;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: #dedede;
+}
+
+nav {
+    background-color: #dedede;
+    text-align: center;
+}
+
+main {
+    background-color: #dedede;
+    font-size: 20px;
+}
+
+img {
+    width: 40vw;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: normal;
+}
+
+ol {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+}
+
+footer {
+    background-color: #dedede;
+}
