@@ -9,9 +9,12 @@ header {
 }
 
 nav {
-    background-color: #dedede;
+    background: transparent;
     text-align: center;
+    display: inline-block;
+    width: 95vw;
 }
+
 
 main {
     background-color: #dedede;
@@ -51,10 +54,20 @@ ol {
     text-align: center;
 }
 
-li {
+/* li {
     text-align: center;
-}
+} */
 
 footer {
     background-color: #dedede;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+nav img {
+    width: 5%;
+    background: transparent;
 }
