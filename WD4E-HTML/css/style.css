@@ -2,38 +2,76 @@ body {
     background-color: #dedede;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    text-align: center;
 }
 
 header {
     background-color: #dedede;
 }
 
+.floatingDiv {
+    position: fixed; /* Stays in a fixed position relative to the viewport */
+    top: 10px; /* Distance from the top of the viewport */
+    right: 10px; /* Distance from the right of the viewport */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 15px;
+    z-index: 1000; /* Ensures it stays above other elements */
+    border-radius: 8px; /* Optional: Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: Shadow for "levitating" effect */
+}
+
+@media (max-width: 600px) {
+    .floatingDiv {
+        top: auto;
+        bottom: 10px; /* Move to the bottom */
+        right: 10px; /* Still aligned on the right */
+    }
+}
+
+
 .skipToMain>a {
     display: inline-block;
-    position: relative;
-    top: -100px;
+    position: absolute;
+    left: -9999px;
+    top: 0px;
 }
 
 .skipToMain>a:focus {
-    top: 0px;
+    left: 0; /* Bring it into view when focused */
+    top: 0;
+    background-color: yellow; /* Highlight for visibility */
+    padding: 10px;
+    border: 2px solid black;
 }
 
 nav {
     background: transparent;
-    text-align: center;
     display: inline-block;
     width: 95vw;
 }
-
 
 main {
     background-color: #dedede;
     font-size: 20px;
 }
 
-
 figure {
-    text-align: center;
+    display: inline-block;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: inline-end;
+    text-align: left;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+aside>p {
+    text-align: left;
 }
 
 figcaption {
@@ -44,26 +82,17 @@ figcaption {
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    text-align: center;
     font-size: 40px;
 }
 
-h2 {
-    text-align: center;
-}
-
 p {
-    text-align: center;
+
     line-height: normal;
 }
 
-ol {
-    text-align: center;
+nav>ul {
+    list-style-position: inside;
 }
-
-/* li {
-    text-align: center;
-} */
 
 footer {
     background-color: #dedede;
@@ -115,46 +144,100 @@ div {
 /* Color game*/
 .gameGrid {
     display: flex;
-    flex-wrap: wrap;             /* Allows the squares to wrap onto new rows */
-    gap: 10px;                   /* Adds space between squares */
-    padding: 20px;    
-    max-width: 450px; 
+    flex-wrap: wrap;
+    /* Allows the squares to wrap onto new rows */
+    gap: 10px;
+    /* Adds space between squares */
+    padding: 20px;
+    max-width: 450px;
 }
 
 .square {
     width: 100px;
     height: 100px;
-    border: 2px solid black;     /* Optional border for visualization */
-    transition: transform 0.3s;    /* Smooth transition for hover effect */
+    border: 2px solid black;
+    /* Optional border for visualization */
+    transition: transform 0.3s;
+    /* Smooth transition for hover effect */
 }
 
 .square:hover {
-    transform: scale(0.9);         /* Shrinks the square on hover */
+    transform: scale(0.9);
+    /* Shrinks the square on hover */
 }
 
 .square:active {
-    transform: scale(0.7);         /* Shrinks the square on hover */
+    transform: scale(0.7);
+    /* Shrinks the square on hover */
 }
 
 .square:nth-child(4n+1) {
-    border: 2px dashed black;      /* Dashing border for the first element in each row */
+    border: 2px dashed black;
+    /* Dashing border for the first element in each row */
 }
 
 
 /* Different color classes */
-.red { background-color: red; }
-.green { background-color: green; }
-.blue { background-color: blue; }
-.yellow { background-color: yellow; }
-.purple { background-color: purple; }
-.orange { background-color: orange; }
-.pink { background-color: pink; }
-.teal { background-color: teal; }
-.brown { background-color: brown; }
-.cyan { background-color: cyan; }
-.lime { background-color: lime; }
-.violet { background-color: violet; }
-.navy { background-color: navy; }
-.coral { background-color: coral; }
-.olive { background-color: olive; }
-.gold { background-color: gold; }
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.lime {
+    background-color: lime;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.navy {
+    background-color: navy;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.olive {
+    background-color: olive;
+}
+
+.gold {
+    background-color: gold;
+}
